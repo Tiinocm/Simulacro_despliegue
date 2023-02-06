@@ -12,6 +12,12 @@ class cocheTest extends TestCase {
 
   }
 
+  public function testCircula(){
+   
+   $objeto = new Coche("Ferrari", "petroleo", 50, 0);
+   $this->assertEquals(40, $objeto->circula(10));
+  }
+
        
 }
 
